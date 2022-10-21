@@ -51,18 +51,39 @@ an options underlying:
 - futures
 - anything
 
+contract multiplier 
+
 # Option strike & expiry
+
+`Strike/Exercise price`: price at which the underlying will be delivered should the holder of an option choose to exercise his right to buy/sell.
+
+`expiration date/expiry`: date on which the owner of an option must make final decision to buy, in case of a call, or sell in case of put.
 
 
 # Option premium 
 
+premium = intrinsic value + time value
 
+time value: price uncertainty
 
 # European vs. American options
 
+`option settlement`
 
+exchange traded option:
+
+- physical underlying
+- futures position 
+- cash settlement
+
+exercise style:
+
+- European contract: can only be exercised at Expiration
+
+- American contract: can be exercised anytime between now and expiration date
 
 # Option payoff diagrams
+
 
 
 
